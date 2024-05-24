@@ -1,0 +1,452 @@
+[
+  {
+    "question": "What is React primarily used for?",
+    "A": "Building user interfaces",
+    "B": "Managing databases",
+    "C": "Server-side scripting",
+    "D": "Networking",
+    "answer": "A",
+    "hint": "Think about the front-end development."
+  },
+  {
+    "question": "Which method is used to create a new React component?",
+    "A": "React.createElement()",
+    "B": "React.render()",
+    "C": "React.component()",
+    "D": "React.newComponent()",
+    "answer": "A",
+    "hint": "It involves an element creation function."
+  },
+  {
+    "question": "What is a common use of the useEffect hook in React?",
+    "A": "To manage state",
+    "B": "To perform side effects",
+    "C": "To create elements",
+    "D": "To define styles",
+    "answer": "B",
+    "hint": "This hook is used for effects outside of the render."
+  },
+  {
+    "question": "What is JSX in React?",
+    "A": "A CSS framework",
+    "B": "A JavaScript syntax extension",
+    "C": "A data fetching library",
+    "D": "A testing tool",
+    "answer": "B",
+    "hint": "It looks like HTML but is actually JavaScript."
+  },
+  {
+    "question": "What is the purpose of React's state?",
+    "A": "To manage database records",
+    "B": "To handle HTTP requests",
+    "C": "To manage component data",
+    "D": "To define routing",
+    "answer": "C",
+    "hint": "It's used for dynamic data within components."
+  },
+  {
+    "question": "Which hook is used to manage state in a functional component?",
+    "A": "useState",
+    "B": "useEffect",
+    "C": "useReducer",
+    "D": "useContext",
+    "answer": "A",
+    "hint": "It's the most basic hook for state management."
+  },
+  {
+    "question": "What is the correct syntax to pass a prop to a child component?",
+    "A": "<ChildComponent propName='value' />",
+    "B": "<ChildComponent.propName = 'value' />",
+    "C": "<ChildComponent propName: 'value' />",
+    "D": "<ChildComponent.propName('value') />",
+    "answer": "A",
+    "hint": "Props are passed similarly to HTML attributes."
+  },
+  {
+    "question": "Which of these is a way to conditionally apply classes in React?",
+    "A": "className={condition ? 'classA' : 'classB'}",
+    "B": "className={if (condition) 'classA' else 'classB'}",
+    "C": "className={condition && 'classA'}",
+    "D": "className={condition || 'classB'}",
+    "answer": "A",
+    "hint": "It uses the ternary operator."
+  },
+  {
+    "question": "What does lifting state up mean in React?",
+    "A": "Moving state to a higher level component",
+    "B": "Creating new state variables",
+    "C": "Deleting unused state",
+    "D": "Sharing state between unrelated components",
+    "answer": "A",
+    "hint": "It involves moving state up in the component hierarchy."
+  },
+  {
+    "question": "How do you handle events in React?",
+    "A": "Using inline JavaScript",
+    "B": "Using HTML event attributes",
+    "C": "Using camelCase event handlers",
+    "D": "Using CSS pseudo-classes",
+    "answer": "C",
+    "hint": "React events are named using camelCase."
+  },
+  {
+    "question": "What is the purpose of the React Router library?",
+    "A": "To manage state in React applications",
+    "B": "To handle HTTP requests",
+    "C": "To manage navigation in React applications",
+    "D": "To create animations in React applications",
+    "answer": "C",
+    "hint": "It helps in handling routing within a React application."
+  },
+  {
+    "question": "Which lifecycle method is used for performing side effects in class components?",
+    "A": "componentDidMount",
+    "B": "componentDidUpdate",
+    "C": "componentWillUnmount",
+    "D": "componentWillReceiveProps",
+    "answer": "A",
+    "hint": "This method is called after the component has mounted."
+  },
+  {
+    "question": "What is the purpose of the useMemo hook in React?",
+    "A": "To perform HTTP requests",
+    "B": "To memoize expensive calculations",
+    "C": "To manage component state",
+    "D": "To create context",
+    "answer": "B",
+    "hint": "It's used to optimize performance by memoizing values."
+  },
+  {
+    "question": "In React, how do you update the state?",
+    "A": "Directly mutate the state object",
+    "B": "Use the setState() method",
+    "C": "Call a Redux action",
+    "D": "Invoke the render() function",
+    "answer": "B",
+    "hint": "This method triggers a re-render with the updated state."
+  },
+  {
+    "question": "What is the purpose of the key prop in React lists?",
+    "A": "To specify the position of an element",
+    "B": "To identify list items uniquely",
+    "C": "To add styling to list items",
+    "D": "To sort list items alphabetically",
+    "answer": "B",
+    "hint": "Each key should be unique among siblings."
+  },
+  {
+    "question": "How can you conditionally render components in React?",
+    "A": "Using the if-else statement",
+    "B": "Using the render() method",
+    "C": "Using ternary operators or logical &&",
+    "D": "Using CSS media queries",
+    "answer": "C",
+    "hint": "This approach is concise and commonly used in React."
+  },
+  {
+    "question": "What is the purpose of the React DevTools extension?",
+    "A": "To write React code",
+    "B": "To debug React applications",
+    "C": "To optimize React performance",
+    "D": "To format React components",
+    "answer": "B",
+    "hint": "It's a browser extension for debugging React applications."
+  },
+  {
+    "question": "What does Redux provide in a React application?",
+    "A": "A built-in routing system",
+    "B": "A state management solution",
+    "C": "A CSS-in-JS library",
+    "D": "A form validation library",
+    "answer": "B",
+    "hint": "It's commonly used for managing complex application states."
+  },
+  {
+    "question": "What is the purpose of PropTypes in React?",
+    "A": "To define the structure of a component's props",
+    "B": "To handle form submissions",
+    "C": "To validate API responses",
+    "D": "To style React components",
+    "answer": "A",
+    "hint": "It helps in documenting expected props for a component."
+  },
+  {
+    "question": "How can you optimize performance in a React application?",
+    "A": "By using inline styles",
+    "B": "By minimizing the use of components",
+    "C": "By avoiding unnecessary re-renders",
+    "D": "By increasing the size of the bundle",
+    "answer": "C",
+    "hint": "This involves preventing unnecessary render cycles."
+  },
+  {
+    "question": "What is the purpose of the useContext hook in React?",
+    "A": "To fetch data from an API",
+    "B": "To manage component state",
+    "C": "To share data between components without prop drilling",
+    "D": "To handle asynchronous operations",
+    "answer": "C",
+    "hint": "It's used for sharing data that is considered global within a React application."
+  },
+  {
+    "question": "What does JSX stand for in React?",
+    "A": "JavaScript XML",
+    "B": "JavaScript Extensions",
+    "C": "JavaScript XHR",
+    "D": "JavaScript XSS",
+    "answer": "A",
+    "hint": "It's a syntax extension for JavaScript that resembles XML/HTML."
+  },
+  {
+    "question": "What is the purpose of the React.Fragment component?",
+    "A": "To define a new React component",
+    "B": "To render multiple elements without a wrapper",
+    "C": "To manage component state",
+    "D": "To handle events",
+    "answer": "B",
+    "hint": "It's used to avoid adding unnecessary nodes to the DOM when rendering multiple elements."
+  },
+  {
+    "question": "What is the significance of the virtual DOM in React?",
+    "A": "It improves security by isolating components",
+    "B": "It optimizes rendering performance",
+    "C": "It handles routing in single-page applications",
+    "D": "It ensures compatibility with older browsers",
+    "answer": "B",
+    "hint": "It's a key concept in React that enhances performance by reducing the number of DOM manipulations."
+  },
+  {
+    "question": "How do you define PropTypes for a component in React?",
+    "A": "Using the propTypes attribute within the component",
+    "B": "As a separate PropTypes file",
+    "C": "Using the PropTypes library",
+    "D": "By specifying PropTypes in the component's render method",
+    "answer": "A",
+    "hint": "It's typically defined as a static property of the component."
+  },
+  {
+    "question": "What is a controlled component in React?",
+    "A": "A component that manages its own state internally",
+    "B": "A component that relies on external state management",
+    "C": "A component that accepts user input but does not change state",
+    "D": "A component that receives its initial state from props",
+    "answer": "B",
+    "hint": "It's a component whose value is controlled by React, not by the DOM."
+  },
+  {
+    "question": "What is the purpose of the shouldComponentUpdate lifecycle method?",
+    "A": "To fetch data from an API before rendering",
+    "B": "To determine if a component should re-render",
+    "C": "To initialize state in a class component",
+    "D": "To perform cleanup before a component unmounts",
+    "answer": "B",
+    "hint": "It's invoked before rendering when new props or state are being received."
+  },
+  {
+    "question": "What does the term 'unidirectional data flow' mean in the context of React?",
+    "A": "Data can only flow from parent components to child components",
+    "B": "Data can flow bidirectionally between components",
+    "C": "Data flow is restricted to a single direction within a component",
+    "D": "Data can flow between any components in the application",
+    "answer": "A",
+    "hint": "It's a core principle of React, emphasizing the flow of data from parent to child."
+  },
+  {
+    "question": "What is the purpose of the componentDidCatch lifecycle method?",
+    "A": "To handle errors that occur during rendering",
+    "B": "To fetch data asynchronously from an API",
+    "C": "To perform side effects after rendering",
+    "D": "To initialize component state",
+    "answer": "A",
+    "hint": "It's used for error handling in React components."
+  },
+  {
+    "question": "What is the significance of keys in React lists?",
+    "A": "They specify the position of elements in a list",
+    "B": "They help React identify which items have changed, are added, or are removed",
+    "C": "They define the styling for list items",
+    "D": "They enable sorting of list items",
+    "answer": "B",
+    "hint": "Keys are important for efficient rendering of lists in React."
+  },
+  {
+    "question": "What is a functional component in React?",
+    "A": "A component that is used for business logic",
+    "B": "A component that has its own state",
+    "C": "A component that is declared as a JavaScript function",
+    "D": "A component that manages side effects",
+    "answer": "C",
+    "hint": "These are stateless components introduced in React 16.8."
+  },
+  {
+    "question": "What is the purpose of defaultProps in React?",
+    "A": "To define default styling for components",
+    "B": "To specify default values for component props",
+    "C": "To define default event handlers for components",
+    "D": "To declare default state for components",
+    "answer": "B",
+    "hint": "It's used to provide default values for props if they are not specified by the parent component."
+  },
+  {
+    "question": "What is the significance of the render() method in React components?",
+    "A": "It's responsible for updating the DOM",
+    "B": "It's where the component's state is initialized",
+    "C": "It's where JSX is converted to JavaScript",
+    "D": "It returns the elements that the component should render",
+    "answer": "D",
+    "hint": "This method returns the JSX that represents the component's UI."
+  },
+  {
+    "question": "What is the purpose of the PureComponent in React?",
+    "A": "To prevent a component from re-rendering",
+    "B": "To handle asynchronous actions",
+    "C": "To provide a pure functional programming experience",
+    "D": "To optimize performance by avoiding unnecessary re-renders",
+    "answer": "D",
+    "hint": "It's similar to React.Component but with a built-in shouldComponentUpdate() method."
+  },
+  {
+    "question": "What is the significance of the 'key' attribute when rendering lists in React?",
+    "A": "It defines the style of list items",
+    "B": "It determines the position of list items",
+    "C": "It helps React identify which items have changed, are added, or are removed",
+    "D": "It is used to sort list items alphabetically",
+    "answer": "C",
+    "hint": "Keys help React identify which items have changed, are added, or are removed in lists."
+  },
+  {
+    "question": "What is the purpose of the PureComponent in React?",
+    "A": "To prevent a component from re-rendering",
+    "B": "To handle asynchronous actions",
+    "C": "To provide a pure functional programming experience",
+    "D": "To optimize performance by avoiding unnecessary re-renders",
+    "answer": "D",
+    "hint": "It's similar to React.Component but with a built-in shouldComponentUpdate() method."
+  },
+  {
+    "question": "What is the purpose of the 'key' attribute when rendering lists in React?",
+    "A": "It defines the style of list items",
+    "B": "It determines the position of list items",
+    "C": "It helps React identify which items have changed, are added, or are removed",
+    "D": "It is used to sort list items alphabetically",
+    "answer": "C",
+    "hint": "Keys help React identify which items have changed, are added, or are removed in lists."
+  },
+  {
+    "question": "What does the 'setState' method do in React?",
+    "A": "It updates the component's state and re-renders the component",
+    "B": "It fetches data from an external source",
+    "C": "It defines the initial state of the component",
+    "D": "It handles user input events",
+    "answer": "A",
+    "hint": "This method is used to update the state of a component and trigger a re-render."
+  },
+  {
+    "question": "What is the purpose of React Fragments?",
+    "A": "To create reusable components",
+    "B": "To define conditional rendering logic",
+    "C": "To optimize rendering performance",
+    "D": "To render multiple children without a wrapper element",
+    "answer": "D",
+    "hint": "Fragments allow you to group multiple children without adding extra nodes to the DOM."
+  },
+  {
+    "question": "What is the purpose of the 'ref' attribute in React?",
+    "A": "To reference an external JavaScript file",
+    "B": "To refer to a component's DOM node or React element",
+    "C": "To refresh the component's state",
+    "D": "To rename a component",
+    "answer": "B",
+    "hint": "Refs provide a way to access DOM nodes or React elements created in the render method."
+  },
+  {
+    "question": "What is the purpose of the useEffect hook in React?",
+    "A": "To handle form submissions",
+    "B": "To manage component state",
+    "C": "To fetch data from an API",
+    "D": "To handle asynchronous operations",
+    "answer": "D",
+    "hint": "It's used for performing side effects in functional components."
+  },
+  {
+    "question": "What is the purpose of the useCallback hook in React?",
+    "A": "To handle form submissions",
+    "B": "To manage component state",
+    "C": "To memoize functions",
+    "D": "To handle asynchronous operations",
+    "answer": "C",
+    "hint": "It's used for memoizing functions to prevent unnecessary re-renders."
+  },
+  {
+    "question": "What is the purpose of the useMemo hook in React?",
+    "A": "To handle form submissions",
+    "B": "To manage component state",
+    "C": "To memoize values",
+    "D": "To handle asynchronous operations",
+    "answer": "C",
+    "hint": "It's used for memoizing values to prevent unnecessary calculations."
+  },
+  {
+    "question": "What is the purpose of the useRef hook in React?",
+    "A": "To handle form submissions",
+    "B": "To manage component state",
+    "C": "To reference DOM elements",
+    "D": "To handle asynchronous operations",
+    "answer": "C",
+    "hint": "It's used for referencing DOM elements or values that persist across renders."
+  },
+  {
+    "question": "What is the purpose of the useReducer hook in React?",
+    "A": "To handle form submissions",
+    "B": "To manage component state",
+    "C": "To fetch data from an API",
+    "D": "To handle complex state logic",
+    "answer": "D",
+    "hint": "It's used for managing complex state logic in functional components."
+  },
+  {
+    "question": "What is the purpose of the useContext hook in React?",
+    "A": "To handle form submissions",
+    "B": "To manage component state",
+    "C": "To share data between components without prop drilling",
+    "D": "To handle asynchronous operations",
+    "answer": "C",
+    "hint": "It's used for sharing data that is considered global within a React application."
+  },
+  {
+    "question": "What is the purpose of the useLayoutEffect hook in React?",
+    "A": "To handle form submissions",
+    "B": "To manage component state",
+    "C": "To perform side effects after rendering",
+    "D": "To handle asynchronous operations",
+    "answer": "C",
+    "hint": "It's similar to useEffect, but it runs synchronously after all DOM mutations."
+  },
+  {
+    "question": "What is the purpose of the useImperativeHandle hook in React?",
+    "A": "To handle form submissions",
+    "B": "To manage component state",
+    "C": "To expose imperative methods to parent components",
+    "D": "To handle asynchronous operations",
+    "answer": "C",
+    "hint": "It's used for exposing imperative methods to parent components."
+  },
+  {
+    "question": "What is the purpose of the useDebugValue hook in React?",
+    "A": "To handle form submissions",
+    "B": "To manage component state",
+    "C": "To provide custom labels for custom hooks in React DevTools",
+    "D": "To handle asynchronous operations",
+    "answer": "C",
+    "hint": "It's used for providing custom labels for custom hooks in React DevTools."
+  },
+  {
+    "question": "What is the purpose of the useErrorBoundary hook in React?",
+    "A": "To handle errors that occur during rendering",
+    "B": "To fetch data asynchronously from an API",
+    "C": "To perform side effects after rendering",
+    "D": "To initialize component state",
+    "answer": "A",
+    "hint": "It's used for error handling in React components."
+  }
+]
