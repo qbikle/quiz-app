@@ -1,7 +1,3 @@
-Sure! Here's a basic template for a README file for your quiz project:
-
----
-
 # Quiz App
 
 This is a simple quiz application built using Next.js. Users can take a quiz consisting of random questions and see their score at the end.
