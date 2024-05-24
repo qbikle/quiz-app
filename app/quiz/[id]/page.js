@@ -91,8 +91,10 @@ const QuizQuestion = () => {
               <li key={option} className="flex items-center">
                 <label
                   className={`flex items-center space-x-3 pr-6 cursor-pointer ${
-                    selectedOption === option ? "bg-blue-600" : "bg-gray-700"
-                  } p-2 rounded-lg`}
+                    selectedOption === option
+                      ? "bg-blue-600 transform scale-105"
+                      : "bg-gray-700"
+                  } p-2 rounded-lg transition-all duration-300`}
                 >
                   <input
                     type="radio"
@@ -127,14 +129,14 @@ const QuizQuestion = () => {
             {id > 1 && (
               <button
                 onClick={() => router.push(`/quiz/${parseInt(id, 10) - 1}`)}
-                className="px-4 py-2 bg-slate-600 hover:bg-gray-700  rounded"
+                className="px-4 py-2 bg-slate-600 hover:bg-gray-700  rounded transition-colors duration-300"
               >
                 Previous
               </button>
             )}
             <button
               onClick={handleNext}
-              className="px-4 py-2 mx-6 bg-blue-600 hover:bg-blue-700 text-white rounded"
+              className="px-4 py-2 mx-6 bg-blue-600 hover:bg-blue-700 text-white rounded transition-colors duration-300"
             >
               Next
             </button>

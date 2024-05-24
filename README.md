@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Sure! Here's a basic template for a README file for your quiz project:
+
+---
+
+# Quiz App
+
+This is a simple quiz application built using Next.js. Users can take a quiz consisting of random questions and see their score at the end.
+
+## Features
+
+- **Random Questions**: 16 random questions are selected from a pool of questions to create each quiz session.
+- **Score Calculation**: Users receive a score based on the number of correct answers.
+- **Session Storage**: User progress, including selected options, is stored in session storage to allow continuation of the quiz.
+
+## Technologies Used
+
+- **Next.js**: A React framework for building server-side rendered applications.
+- **React**: A JavaScript library for building user interfaces.
+- **JavaScript**: The primary programming language used.
+- **CSS**: Styling is done using CSS.
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies by running `npm install`.
+4. Start the development server by running `npm run dev`.
+5. Open your browser and navigate to `http://localhost:3000`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- `pages/`: Contains Next.js pages for routing.
+- `components/`: Reusable React components used in the application.
+- `public/`: JSON files containing quiz questions.
+- `styles/`: CSS files for styling the application.
+- `utils/`: Utility functions used in the application.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
 
-## Learn More
+- Navigate to the quiz page (`/quiz`) to start a new quiz session.
+- Select an option for each question and proceed to the next question.
+- After answering all questions, you will be redirected to the results page (`/quiz/results`) to see your score.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Fork this repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive messages.
+4. Push your changes to your fork.
+5. Open a pull request to merge your changes into the main repository.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---

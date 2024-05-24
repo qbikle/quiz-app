@@ -16,11 +16,11 @@ export default function SideNav({ answeredQuestions }) {
         {new Array(16).fill(0).map((_, i) => (
           <Link key={i} href={`/quiz/${i + 1}`}>
             <p
-              className={`flex h-[4rem] max-w-auto text-xl items-center justify-center rounded-md ${
+              className={`flex h-[4rem] max-w-auto text-xl items-center justify-center rounded-md transition-all duration-300 transform ${
                 answeredQuestions.includes(i + 1)
-                  ? "bg-green-500"
+                  ? "bg-green-500 scale-105"
                   : "bg-gray-800 hover:bg-gray-500"
-              }`}
+              } hover:scale-105`}
             >
               {i + 1}
             </p>
